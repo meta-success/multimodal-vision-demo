@@ -8,7 +8,7 @@ import os
 
 st.set_page_config(page_title="Multimodal Vision & OCR", layout="centered")
 st.title("📸 Multimodal AI Agent")
-st.write("Upload an image (receipt, ID, document, etc.) and watch the AI analyze it!")
+st.write("Upload an image and watch the AI analyze it!")
 
 @st.cache_resource
 def load_models():
